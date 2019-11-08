@@ -1,0 +1,2 @@
+git fetch --all           #lade alle Dateien aus externem Repo
+git reset --hard origin/master    # verwerfe alle sachen bei dir

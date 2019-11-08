@@ -1,0 +1,16 @@
+Gitlab zum ersten mal einrichten: 
+
+1. Auf Seite im Browser gehen & einloggen:
+https://i3gitlab.informatik.uni-erlangen.de/ (Seite des Lehrstuhlgitlabs sonst privates gitlab nehmen)
+
+2. in Windows cygwin runterladen und starten dabei packages mit git und mit ssh installieren.
+2. in Linux ueber apt-get git installieren
+
+3. SSH key rüberkopieren: .ssh Ordner rüberkopieren ins home (bei windows in das fake-home der cygwin directory (cygwin/home/username)
+
+4. in cygwin/ linux terminal git repos clonen (siehe howto gitlab repos hohlen)
+
+z.B.
+
+git clone git@i3gitlab.informatik.uni-erlangen.de:ic28yveg/All-Scale-Report.git
+
