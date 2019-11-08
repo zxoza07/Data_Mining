@@ -1,0 +1,7 @@
+1. Mache Gitrepository auf Github (im Browser) ohne alles
+2. (im Repository) git init # creates Repository
+3. git add . 			# added alles
+4. git commit -m 'First commit' # erster commit
+5. kopiere URL des Github Repos
+6. git remote add origin <URL Repo>   # verbindet beide Repos
+7. git push origin master             # pusht ersten commit

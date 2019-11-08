@@ -1,0 +1,7 @@
+git init # creates repo
+git add <filename> # stages filename
+git reset <filename> # unstage
+git commit -m "<Commit Name>" # commiting changes
+git push -u origin master # pushes  orgin == repo   master == branch
+git branch <name> # create branch
+git checkout <branch_name> # switch to branch

@@ -1,0 +1,5 @@
+git clone git@i3gitlab.informatik.uni-erlangen.de:i3-memristor/memristor-stuff.git
+
+
+Notation: git clone <Repository Link von Gitlab geholt>
+
