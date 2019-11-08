@@ -1,0 +1,6 @@
+The expectation maximization algorithm makes inference on the parameters of the GMM by optimizing the likelyhood function. §
+
+Before starting the algorithms we define a random set of the five parameters $\list§ then the following two steps are cycled through until the likelyhood function does is run in a maximum and does not rise significantly.
+E-step: Given $\sigma_1, sigma_2, mu_1, mu_2, p_1$ the likelyhoods $P(x_i|C_1)$ $P(x_i|C_2)$ of each sample $i$ to belong to a class $C$ is derived for both classes $C1$ and $C2$. Then each point is assigned to the class with a higher likelyhood.
+M-step: Given the new assignment new values for the parameters $\sigma_1, sigma_2, mu_1, mu_2, p_1$ are derived.
+Both steps higher the likelyhood function one by assignment of the data samples into the higher probable classes one by maximizing the likelyhood function of a given class.
